@@ -17,7 +17,6 @@
     flex-direction: row;
     justify-content: space-between;
     padding: 0.5rem 8rem;
-    border-bottom: 1px solid rgb(255, 255, 255);
     background-color: aqua;
     color: var(--header-logo-text);
     background-color: var(--dark-background-color);
@@ -99,6 +98,7 @@
 .random-info-section{
     display: flex;
     flex-direction: column;
+    
     padding: 3rem 8rem;
     background-color: var(--hero-main-text);
     justify-content: space-between;
@@ -117,6 +117,7 @@
 .random-info-cards{
     display: flex;
     flex-direction: row;
+    
     justify-content: space-around;
 
 }
@@ -140,4 +141,86 @@
     padding: 1rem 0.5rem;
     font-weight: 350;
     color: var(--quote-text)
+}
+
+/*Quote Section*/
+
+.quote-section{
+    background-color: var(--quote-background-color);
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 10rem;
+}
+
+.quote-section p{
+    
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 200;
+}
+
+.quote-section h5{
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+/*Call To Action Section*/
+
+.call-to-action-section{
+    display: flex;
+    justify-content: center;
+    padding: 5rem 8rem;
+    background-color: var(--hero-main-text);
+}
+
+.call-to-action{
+    background-color: var(--button-color);
+    color: var(--hero-main-text);
+    display: flex;
+
+    padding: 2rem 6rem;
+    border-radius: 5px;
+}
+
+.call-to-action-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+}
+
+.call-to-action-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 4rem;
+}
+
+.call-to-action-right h4{
+    font: var(--hero-secondary-text);
+
+}
+.call-to-action-left h6{
+    font-weight: 400;
+}
+
+.call-to-action-right button{
+    background-color: var(--button-color);
+    border-radius: 3px;
+    border: 1px solid var(--hero-main-text);
+    color: var(--hero-main-text);
+    padding: 0.3rem 2rem;
+}
+
+.footer-section{
+    background-color: var(--dark-background-color);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    color: var(--hero-secondary-text);
+}
+
+.footer-section h5{
+    font-weight: 400;
 }
